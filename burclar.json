@@ -1,0 +1,110 @@
+{
+  "Koç": {
+    "element": "Ateş",
+    "yonetici": "Mars",
+    "olumlu_ozellikler": ["Cesur", "Öncü", "Enerjik", "Dürüst", "İnisiyatif alan"],
+    "golge_yanlar": ["Sabırsız", "Agresif", "Dürtüsel", "Bencil"],
+    "genel_analiz": "Zodyak'ın ilk burcu olan Koç, her şeyi başlatan ilksel enerjiyi ve yaşam istencini temsil eder. Arketipsel olarak 'Savaşçı' rolünü üstlenir. Hayat motivasyonu engelleri aşmak ve liderlik etmektir.",
+    "ay_analizi": "Duygusal dünyasında huzursuz ve tez canlıdır. İhtiyaçlarının anında karşılanmasını bekler. Öfkelendiğinde saman alevi gibi parlar ancak kin tutmaz ve çabuk affeder. Bağımsızlık en büyük duygusal ihtiyacıdır.",
+    "yukselen_analizi": "Dış dünyaya enerjik, hızlı ve bazen sert bir imaj çizer. Bulunduğu ortama anında hareket katar. İlk bakışta rekabetçi, kararlı ve inisiyatif almaktan çekinmeyen bir profil sergiler."
+  },
+  "Boğa": {
+    "element": "Toprak",
+    "yonetici": "Venüs",
+    "olumlu_ozellikler": ["Güvenilir", "Sabırlı", "Kararlı", "Estetik odaklı", "Üretken"],
+    "golge_yanlar": ["İnatçı", "Değişime kapalı", "Maddeci", "Konfor bağımlısı"],
+    "genel_analiz": "Boğa burcu maddi ve manevi dünyada kalıcılığı, güvenliği ve somut değerler üretmeyi temsil eder. Huzur, konfor ve estetik onun için vazgeçilmezdir. Muazzam bir sabra sahiptir.",
+    "ay_analizi": "Duygusal olarak çok sabırlı ve istikrarlıdır. Huzurlu bir ev ortamı, maddi güvence ve fiziksel temas onun duygusal güvenliğidir. Değişimden hiç hoşlanmaz, alışkanlıklarına sıkı sıkıya bağlıdır.",
+    "yukselen_analizi": "Sakin, ağırbaşlı ve estetik bir duruşu vardır. İnsanlar üzerinde güven veren, sağlam ve sarsılmaz bir etki bırakır. Adımlarını yavaş ama son derece sağlam atar."
+  },
+  "İkizler": {
+    "element": "Hava",
+    "yonetici": "Merkür",
+    "olumlu_ozellikler": ["Meraklı", "Adapte olabilen", "İletişimci", "Zeki", "Çok yönlü"],
+    "golge_yanlar": ["Kararsız", "Yüzeysel", "Odaklanma sorunu", "Tutarsız"],
+    "genel_analiz": "İkizler burcu zihinsel aktiviteleri, bilgi akışını ve iletişimi temsil eder. Zodyak'ın habercisidir. Çok hızlı öğrenir ve çevresine adapte olur.",
+    "ay_analizi": "Duygularını mantık süzgecinden geçirerek yaşar. Hislerini konuşarak, yazarak veya analiz ederek ifade etmeye ihtiyaç duyar. Duygusal bağlardan ziyade zihinsel uyum arar.",
+    "yukselen_analizi": "Konuşkan, meraklı ve genç ruhlu görünür. Sürekli hareket halinde olan, canlı ve esnek bir yapısı vardır. İnsanlarla anında iletişim kurabilen sempatik bir ilk izlenim bırakır."
+  },
+  "Yengeç": {
+    "element": "Su",
+    "yonetici": "Ay",
+    "olumlu_ozellikler": ["Besleyici", "Empatik", "Koruyucu", "Sezgisel", "Sadık"],
+    "golge_yanlar": ["Aşırı alıngan", "Geçmişe bağımlı", "Duygusal manipülatif"],
+    "genel_analiz": "Yengeç burcu aidiyeti, kökleri, aileyi ve duygusal güvenliği simgeler. Sezgileri son derece güçlüdür ve çevresindeki insanların ihtiyaçlarını anında sezer.",
+    "ay_analizi": "Ay kendi yönettiği burçta olduğu için duygular en saf ve yoğun haliyle yaşanır. Korumak ve korunmak ister. Hafızası çok güçlüdür; geçmişteki duygusal anıları asla unutmaz.",
+    "yukselen_analizi": "Dışarıdan şefkatli, koruyucu ama bir o kadar da temkinli görünür. Yeni ortamlarda önce kabuğuna çekilip güvenliği test eder, güvendiğinde ise son derece sıcakkanlıdır."
+  },
+  "Aslan": {
+    "element": "Ateş",
+    "yonetici": "Güneş",
+    "olumlu_ozellikler": ["Cömert", "Yaratıcı", "Özgüvenli", "Karizmatik", "Sadık"],
+    "golge_yanlar": ["Kibirli", "Egosantrik", "İnatçı", "Onay bağımlısı"],
+    "genel_analiz": "Aslan burcu bireyselliğin parlamasını, yaratıcı ifadeyi ve neşeyi temsil eder. Doğal bir karizmaya ve cömert bir kalbe sahiptir. Sevdiklerini canı pahasına korur.",
+    "ay_analizi": "Duygusal dünyasında takdir edilmeye, onaylanmaya ve özel hissetmeye ihtiyaç duyar. Gururu kırıldığında çok derin yaralar alır. Duygularını coşkulu ve bazen dramatik bir şekilde ifade eder.",
+    "yukselen_analizi": "Ortama girdiği anda dikkat çeken, güneş gibi parlayan bir auraya sahiptir. Özgüvenli, dik duruşlu ve asil bir imaj çizer. Liderlik vasıfları dış görünüşüne yansır."
+  },
+  "Başak": {
+    "element": "Toprak",
+    "yonetici": "Merkür",
+    "olumlu_ozellikler": ["Analitik", "Çalışkan", "Düzenli", "Faydalı", "Pratik"],
+    "golge_yanlar": ["Aşırı eleştirel", "Mükemmeliyetçi", "Vesveseli"],
+    "genel_analiz": "Başak burcu saflaştırmayı, analizi, hizmet etmeyi ve düzeni temsil eder. Hayatı daha verimli hale getirmek için sistemler kurar ve detayları kusursuzca işler.",
+    "ay_analizi": "Duygusal olarak karmaşadan nefret eder. Sevgi dili 'hizmet etmek' ve sorun çözmektir. Kendi duygularını analiz etmekten bazen onları yaşayamaz, kaygı ve anksiyeteye yatkındır.",
+    "yukselen_analizi": "Mütevazı, titiz ve gözlemci bir ilk izlenim bırakır. Temizliğe ve düzene önem veren, ölçülü hareket eden ve detayları asla kaçırmayan bir dış görünüşü vardır."
+  },
+  "Terazi": {
+    "element": "Hava",
+    "yonetici": "Venüs",
+    "olumlu_ozellikler": ["Adil", "Diplomatik", "Estetik ruhlu", "Uyumlu", "Sosyal"],
+    "golge_yanlar": ["Kararsız", "Çatışmadan kaçan", "Yüzeysel uyum"],
+    "genel_analiz": "Terazi burcu ilişkileri, ortaklıkları, adaleti ve estetiği sembolize eder. Hayatın her alanında uyum yaratmaya çalışır ve diplomasi yeteneği sayesinde krizleri kolayca çözer.",
+    "ay_analizi": "Duygusal huzuru, çevresindeki uyum ve dengeye bağlıdır. Yalnızlıktan hoşlanmaz, kendini bir partner veya sosyal çevre üzerinden tanımlama ihtiyacı hisseder. Adaletsizlik onu duygusal olarak yıpratır.",
+    "yukselen_analizi": "Zarif, çekici ve nazik bir görünüme sahiptir. İnsanlarla çatışmadan, tatlı dille iletişim kurar. Fiziksel olarak estetik ve simetrik bir aurası vardır."
+  },
+  "Akrep": {
+    "element": "Su",
+    "yonetici": "Mars ve Plüton",
+    "olumlu_ozellikler": ["Dönüştürücü", "Tutkulu", "Stratejik", "Ketum", "Sadık"],
+    "golge_yanlar": ["Kıskanç", "İntikamcı", "Kuşkucu", "Kontrolcü"],
+    "genel_analiz": "Akrep burcu krizleri, dönüşümü ve gizemleri temsil eder. Yüzeysel olan hiçbir şeyle ilgilenmez, her şeyin en derindeki gerçeğine ulaşmak ister.",
+    "ay_analizi": "Duyguları okyanusun en derin yerleri gibidir; çok yoğun yaşar ama dışarıya belli etmez. Güvenmekte zorlanır. Krizlerden güçlenerek çıkma ve duygusal olarak küllerinden doğma yeteneği vardır.",
+    "yukselen_analizi": "Gizemli, delici bakışlı ve manyetik bir çekimi vardır. Karşısındaki insanın içini okuyormuş gibi durur. Kendisini kolayca açmaz, sırdaş ve güçlü bir imaj çizer."
+  },
+  "Yay": {
+    "element": "Ateş",
+    "yonetici": "Jüpiter",
+    "olumlu_ozellikler": ["İyimser", "Keşif ruhlu", "Filozofik", "Cömert", "Vizyoner"],
+    "golge_yanlar": ["Aşırı fanatik", "Patavatsız", "Sorumluluktan kaçan"],
+    "genel_analiz": "Yay burcu anlam arayışını, inançları ve uzak ufukları temsil eder. Hayata sarsılmaz bir iyimserlikle bakar ve her deneyimi bir gelişim fırsatı olarak görür.",
+    "ay_analizi": "Duygusal olarak özgürlüğe aşırı düşkündür; kısıtlanmak en büyük korkusudur. İç dünyasında sürekli bir mana ve inanç arayışı vardır. Negatif duygulardan çabuk sıyrılıp umuda tutunur.",
+    "yukselen_analizi": "Neşeli, arkadaş canlısı ve maceraperest bir görünümü vardır. Spora veya harekete yatkın bir bedeni olabilir. Ortamlara geniş, rahat ve samimi bir enerji getirir."
+  },
+  "Oğlak": {
+    "element": "Toprak",
+    "yonetici": "Satürn",
+    "olumlu_ozellikler": ["Sorumluluk sahibi", "Disiplinli", "Sabırlı", "Güvenilir", "Stratejik"],
+    "golge_yanlar": ["Katı", "Melankolik", "Aşırı iş odaklı", "Karamsar"],
+    "genel_analiz": "Oğlak burcu toplumsal yapıyı, kariyeri, sınırları ve inşa etmeyi temsil eder. Uzun vadeli hedeflere büyük bir sabır ve disiplinle yürür.",
+    "ay_analizi": "Duygularını kontrol altında tutmayı bir savunma mekanizması olarak kullanır. Zayıf görünmekten korkar. Kendisini, başardığı işler ve aldığı sorumluluklar üzerinden duygusal olarak güvende hisseder.",
+    "yukselen_analizi": "Ciddi, olgun ve güven veren bir dış görünüşü vardır. Genç yaşlarında bile yaşından büyük gösteren bir bilgeliğe sahipmiş gibi durur. Soğukkanlı ve saygı uyandıran bir aurası vardır."
+  },
+  "Kova": {
+    "element": "Hava",
+    "yonetici": "Satürn ve Uranüs",
+    "olumlu_ozellikler": ["Yenilikçi", "Objektif", "Hümanist", "Entelektüel", "Özgün"],
+    "golge_yanlar": ["Duygusal olarak soğuk", "Asi", "İnatçı", "Sıra dışı olma takıntısı"],
+    "genel_analiz": "Kova burcu kolektif bilinci, teknolojiyi, geleceği ve sıra dışı fikirleri temsil eder. Bireysel duygulardan ziyade insanlığın bütününe odaklanır.",
+    "ay_analizi": "Duygusal konularda objektif ve mesafeli kalmayı tercih eder. Geleneksel aile veya ilişki kalıpları onu boğar. İç dünyasında kendini herkesin içinde ama herkesten farklı/yalnız hisseder.",
+    "yukselen_analizi": "Marjinal, farklı ve elektrikli bir aurası vardır. Giyim tarzı veya hal ve hareketleriyle toplum standartlarının dışında olduğunu ilk bakışta belli eder. Arkadaş canlısı ama bireyseldir."
+  },
+  "Balık": {
+    "element": "Su",
+    "yonetici": "Jüpiter ve Neptün",
+    "olumlu_ozellikler": ["Evrensel sevgi dolu", "Fedakar", "Yaratıcı", "Sezgisel", "Şefkatli"],
+    "golge_yanlar": ["Gerçeklerden kaçan", "Kurban psikolojisi", "Sınır çizememe"],
+    "genel_analiz": "Zodyak'ın son burcu olan Balık, evrensel bütünleşmeyi, ruhsallığı ve koşulsuz sevgiyi simgeler. Dünyevi sınırların ötesini algılayan muazzam bir hayal gücüne sahiptir.",
+    "ay_analizi": "Sınırları olmayan, sünger gibi bir duygusal yapısı vardır; başkalarının acılarını kendi acısıymış gibi hisseder (Yüksek empati). Gerçek dünya ağır geldiğinde hayal dünyasına veya rüyalara sığınma ihtiyacı duyar.",
+    "yukselen_analizi": "Rüya gibi, buğulu ve romantik bir görünüme sahiptir. İnsanlara şefkatli, sakinleştirici ve anlayışlı bir enerji yayar. Girdiği kabın şeklini kolayca alan adapte edilebilir bir aurası vardır."
+  }
+}
