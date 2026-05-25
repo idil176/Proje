@@ -34,7 +34,7 @@ def harita_hesapla(tarih, saat, enlem, boylam):
 
     return gunes_b, ay_b, yukselen_b
 
-# --- ARAYÜZ ---
+
 st.set_page_config(page_title="Astroloji AI", page_icon="✨")
 st.title("✨ Astroloji AI: Büyük Üçlü Analizi")
 
@@ -42,21 +42,21 @@ burc_verileri = veriyi_yukle()
 
 col1, col2, col3 = st.columns(3)
 with col1:
-    secilen_tarih = st.date_input("Doğum Tarihi", datetime.date(2004, 3, 30), min_value=datetime.date(1900, 1, 1), max_value=datetime.date.today())
+    secilen_tarih = st.date_input("Doğum Tarihi", min_value=datetime.date(1900, 1, 1), max_value=datetime.date.today())
 with col2:
-    secilen_saat = st.time_input("Doğum Saati", datetime.time(9, 10), step=60)
+    secilen_saat = st.time_input("Doğum Saati", step=60)
 with col3:
-    secilen_sehir = st.text_input("Doğum Yeri", "Elazığ")
+    secilen_sehir = st.text_input("Doğum Yeri")
 
 if st.button("Analiz Et 🔮", use_container_width=True):
     konum = geolocator.geocode(secilen_sehir)
     if konum:
         g, a, y = harita_hesapla(secilen_tarih, secilen_saat, konum.latitude, konum.longitude)
         
-        # Sonuç Paneli
+        
         st.success(f"Analiz Tamamlandı! Konum: {konum.address}")
         
-        # Sekmeli Görünüm (Profesyonel Dokunuş)
+       
         tab1, tab2, tab3 = st.tabs(["☀️ Güneş Burcu", "🌙 Ay Burcu", "⬆️ Yükselen Burcu"])
 
         with tab1:
