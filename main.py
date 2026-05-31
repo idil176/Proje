@@ -53,28 +53,41 @@ if st.button("Analiz Et 🔮", use_container_width=True):
     if konum:
         g, a, y = harita_hesapla(secilen_tarih, secilen_saat, konum.latitude, konum.longitude)
         
-        
         st.success(f"Analiz Tamamlandı! Konum: {konum.address}")
         
-       
         tab1, tab2, tab3 = st.tabs(["☀️ Güneş Burcu", "🌙 Ay Burcu", "⬆️ Yükselen Burcu"])
 
         with tab1:
             st.header(f"Güneş: {g}")
             if g in burc_verileri:
+                # Element ve Yönetici Bilgisi Satırı
+                st.markdown(f"**Element:** {burc_verileri[g]['element']} | **Yönetici Gezegen:** {burc_verileri[g]['yonetici']}")
                 st.write(burc_verileri[g]['genel_analiz'])
-                st.info(f"✨ **Güçlü Yönler:** {', '.join(burc_verileri[g]['olumlu_ozellikler'])}")
+                
+                # Olumlu Özellikler ve Gölge Yanlar Panelleri
+                st.success(f"✨ **Güçlü Yönler:** {', '.join(burc_verileri[g]['olumlu_ozellikler'])}")
+                st.error(f"🪐 **Gölge Yanlar:** {', '.join(burc_verileri[g]['golge_yanlar'])}")
 
         with tab2:
             st.header(f"Ay: {a}")
             if a in burc_verileri:
-                # JSON'da 'ay_analizi' anahtarı var mı kontrol et
+                # Element ve Yönetici Bilgisi Satırı
+                st.markdown(f"**Element:** {burc_verileri[a]['element']} | **Yönetici Gezegen:** {burc_verileri[a]['yonetici']}")
                 st.write(burc_verileri[a].get('ay_analizi', "Bu burç için Ay analizi henüz eklenmemiş."))
+                
+                # Olumlu Özellikler ve Gölge Yanlar Panelleri
+                st.success(f"✨ **Güçlü Yönler:** {', '.join(burc_verileri[a]['olumlu_ozellikler'])}")
+                st.error(f"🪐 **Gölge Yanlar:** {', '.join(burc_verileri[a]['golge_yanlar'])}")
 
         with tab3:
             st.header(f"Yükselen: {y}")
             if y in burc_verileri:
-                # JSON'da 'yukselen_analizi' anahtarı var mı kontrol et
+                # Element ve Yönetici Bilgisi Satırı
+                st.markdown(f"**Element:** {burc_verileri[y]['element']} | **Yönetici Gezegen:** {burc_verileri[y]['yonetici']}")
                 st.write(burc_verileri[y].get('yukselen_analizi', "Bu burç için Yükselen analizi henüz eklenmemiş."))
+                
+                # Olumlu Özellikler ve Gölge Yanlar Panelleri
+                st.success(f"✨ **Güçlü Yönler:** {', '.join(burc_verileri[y]['olumlu_ozellikler'])}")
+                st.error(f"🪐 **Gölge Yanlar:** {', '.join(burc_verileri[y]['golge_yanlar'])}")
     else:
         st.error("Konum bulunamadı!")
