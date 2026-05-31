@@ -36,6 +36,27 @@ def harita_hesapla(tarih, saat, enlem, boylam):
 
 
 st.set_page_config(page_title="Astroloji AI", page_icon="✨")
+# Yıldızlı arka plan için CSS ayarları
+yildizli_arka_plan = """
+<style>
+[data-testid="stAppViewContainer"] {
+    background-image: url("https://images.unsplash.com/photo-1506318137071-a4e501166699?q=80&w=2070&auto=format&fit=crop");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+[data-testid="stHeader"] {
+    background-color: rgba(0, 0, 0, 0); /* Üst kısmı şeffaf yapar */
+}
+/* Ana metinleri daha okunabilir yapmak için koyu transparan bir zemin */
+.stTabs [data-baseweb="tab-panel"] {
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 20px;
+    border-radius: 10px;
+}
+</style>
+"""
+st.markdown(yildizli_arka_plan, unsafe_allow_html=True)
 st.title("✨ Astroloji AI: Büyük Üçlü Analizi")
 
 burc_verileri = veriyi_yukle()
