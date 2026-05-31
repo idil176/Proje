@@ -36,35 +36,7 @@ def harita_hesapla(tarih, saat, enlem, boylam):
 
 
 st.set_page_config(page_title="Astroloji AI", page_icon="✨")
-yildizli_arka_plan = """
-<style>
-/* 1. TÜM SAYFA ARKA PLANINI YILDIZLI YAPAR */
-[data-testid="stAppViewContainer"] {
-    background-image: url("https://images.unsplash.com/photo-1506318137071-a4e501166699?q=80&w=2070&auto=format&fit=crop") !important;
-    background-size: cover !important;
-    background-position: center !important;
-    background-attachment: fixed !important;
-}
 
-/* 2. ÜST MENÜYÜ ŞEFFAF YAPAR */
-[data-testid="stHeader"] {
-    background-color: transparent !important;
-}
-
-/* 3. ANA YAZILARI BEYAZ YAPAR */
-[data-testid="stAppViewContainer"] * {
-    color: white !important;
-}
-
-/* 4. SEKMELERİN (TABS) ARKA PLANINI YARI SAYDAM SİYAH YAPAR */
-[data-baseweb="tab-panel"] {
-    background-color: rgba(0, 0, 0, 0.7) !important;
-    padding: 20px !important;
-    border-radius: 10px !important;
-}
-</style>
-"""
-st.markdown(yildizli_arka_plan, unsafe_allow_html=True)
 st.title("✨ Astroloji AI: Büyük Üçlü Analizi")
 
 burc_verileri = veriyi_yukle()
