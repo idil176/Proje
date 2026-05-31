@@ -36,40 +36,31 @@ def harita_hesapla(tarih, saat, enlem, boylam):
 
 
 st.set_page_config(page_title="Astroloji AI", page_icon="✨")
-# Tüm ekranı kapsayan yıldızlı arka plan CSS ayarları
 yildizli_arka_plan = """
 <style>
 /* 1. TÜM SAYFA ARKA PLANINI YILDIZLI YAPAR */
-.stApp {
-    background-image: url("https://images.unsplash.com/photo-1506318137071-a4e501166699?q=80&w=2070&auto=format&fit=crop");
+[data-testid="stAppViewContainer"] {
+    background-image: url("https://images.unsplash.com/photo-1506318137071-a4e501166699?q=80&w=2070&auto=format&fit=crop") !important;
     background-size: cover !important;
     background-position: center !important;
     background-attachment: fixed !important;
 }
 
-/* 2. ÜST MENÜYÜ (HEADER) ŞEFFAF YAPAR */
+/* 2. ÜST MENÜYÜ ŞEFFAF YAPAR */
 [data-testid="stHeader"] {
     background-color: transparent !important;
 }
 
-/* 3. ANA METİNLERİ VE BAŞLIKLARI BEYAZ YAPAR */
-.stApp, .stApp p, .stApp h1, .stApp h2, .stApp h3, .stApp h4, .stApp h5, .stApp h6, .stApp span, .stApp label {
+/* 3. ANA YAZILARI BEYAZ YAPAR */
+[data-testid="stAppViewContainer"] * {
     color: white !important;
 }
 
-/* 4. SEKMELERİN (TABS) ARKA PLANINI YARI SAYDAM SİYAH YAPAR (Yazılar rahat okunsun diye) */
-[data-testid="stTabs"] [data-baseweb="tab-panel"] {
-    background-color: rgba(0, 0, 0, 0.6) !important;
+/* 4. SEKMELERİN (TABS) ARKA PLANINI YARI SAYDAM SİYAH YAPAR */
+[data-baseweb="tab-panel"] {
+    background-color: rgba(0, 0, 0, 0.7) !important;
     padding: 20px !important;
     border-radius: 10px !important;
-}
-
-/* 5. GİRDİ KUTULARININ (Tarih, Saat, Konum) ARKA PLANINI KOYULAŞTIRIR */
-.stTextInput > div > div > input, 
-.stDateInput > div > div > input, 
-.stTimeInput > div > div > input {
-    background-color: rgba(0, 0, 0, 0.5) !important;
-    color: white !important;
 }
 </style>
 """
