@@ -36,23 +36,32 @@ def harita_hesapla(tarih, saat, enlem, boylam):
 
 
 st.set_page_config(page_title="Astroloji AI", page_icon="✨")
-# Yıldızlı arka plan için CSS ayarları
+# Yıldızlı arka plan ve beyaz metinler için güncellenmiş CSS
 yildizli_arka_plan = """
 <style>
-[data-testid="stAppViewContainer"] {
+/* Ana arka planı hedefler */
+.stApp {
     background-image: url("https://images.unsplash.com/photo-1506318137071-a4e501166699?q=80&w=2070&auto=format&fit=crop");
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
 }
-[data-testid="stHeader"] {
-    background-color: rgba(0, 0, 0, 0); /* Üst kısmı şeffaf yapar */
+
+/* Üst menü çubuğunu şeffaf yapar */
+header[data-testid="stHeader"] {
+    background-color: transparent !important;
 }
-/* Ana metinleri daha okunabilir yapmak için koyu transparan bir zemin */
+
+/* Sekme panelinin arka planını koyu transparan yapar */
 .stTabs [data-baseweb="tab-panel"] {
-    background-color: rgba(0, 0, 0, 0.6);
+    background-color: rgba(0, 0, 0, 0.7) !important;
     padding: 20px;
     border-radius: 10px;
+}
+
+/* Koyu zemin üzerindeki tüm yazıları zorla BEYAZ yapar */
+.stTabs [data-baseweb="tab-panel"] * {
+    color: white !important;
 }
 </style>
 """
